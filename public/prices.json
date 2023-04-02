@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Basic Membership",
+        "price": 60,
+        "features": [
+            "24/7 access",
+            "Personal training sessions",
+            "Cardio equipment"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Basic Membership",
+        "price": 90,
+        "features": [
+            "Sauna",
+            "Swimming pool",
+            "Tennis courts"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Basic Membership",
+        "price": 40,
+        "features": [
+            "Limited cardio equipment",
+            "Limited weight lifting equipment",
+            "No group fitness classes"
+        ]
+    }
+]

@@ -35,13 +35,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav>
+    <nav className="bg-gray-200 p-4">
       <div onClick={() => setOpen(!open)} className="md:hidden">
         {open ? <AiOutlineCloseCircle /> : <FiMenu />}
       </div>
       <ul
-        className={`md:flex absolute duration-300 ${
-          open ? "top-6" : "-top-60"
+        className={`md:flex md:static absolute duration-300 bg-gray-300 md:bg-gray-200 left-0 ${
+          open ? "top-12" : "-top-60"
         }`}
       >
         {routes.map((route) => (

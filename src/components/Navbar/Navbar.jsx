@@ -4,6 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const Navbar = () => {
+  // console.log(object);
   const [open, setOpen] = useState(false);
   const routes = [
     {
